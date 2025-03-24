@@ -1,9 +1,13 @@
+#some functions that are used throughout this project
+
 import math
 import numpy as np
 from scipy.interpolate import CubicSpline
 # import read_data
 
 # xf, yf, vf = read_data.read_field("high-res-bathymetry")
+
+#the above has to be tailored for your own file. This project is regarding low and high resolution bathymetry data
 
 """There are two ways of representing the data, either as a grid, consisting of three arrays: x, y, v.
     Here x and y are arrays containing the possible x-coordinates and y-coordinates of grid points, and
